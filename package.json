@@ -8,7 +8,8 @@
     "check": "tsc --NoEmit",
     "build": "nest build",
     "start": "bun src/main.ts",
-    "start:dev": "bun --hot src/main.ts"
+    "start:dev": "bun --hot src/main.ts",
+    "prepare": "husky"
   },
   "engines": {
     "npm": ">=10.0.0",
